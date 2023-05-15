@@ -1,4 +1,7 @@
 # Q_learning_play_taxi
+project using Q learning and library gym taxi v3 (open AI)
+https://www.gymlibrary.dev/environments/toy_text/taxi/
+
 The Taxi Problem from “Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition” by Tom Dietterich
 
 ![image](https://github.com/Duongvinh227/Q_learning_play_taxi/assets/96807833/cd3ab051-a6fd-4ee8-8948-53a6438251e2)
@@ -15,7 +18,7 @@ Where:
 - γ is the discount factor, ranging from 0 to 1, which determines the importance of future rewards compared to the immediate reward.
 - max(Q(s', :)) is the maximum value among all possible actions that can be taken from the next state s'.
 - Q(s', :) is the set of Q-values for all possible actions that can be taken from state s'.
-- 
+
 This is the Q-value update formula in the Q-learning algorithm, where the goal is to gradually improve the Q-values to achieve optimal actions for each state.
 
 
